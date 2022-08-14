@@ -1,0 +1,125 @@
+#title{
+    font-weight:600;
+    margin-top:15px;
+    margin-bottom:5px;
+    font-size: 20px;
+}
+
+#tag{
+    font-size:26px;
+    margin-right:5px;
+}
+
+#title2_e{
+    font-size:18px;
+    font-weight:600;
+    /* vertical-align: text-top; */
+}
+
+#title2_c{
+    font-size:18px;
+    font-weight:700;
+    /* vertical-align: text-top; */
+}
+
+#content{
+    font-size:16.5px;
+    font-weight:500;
+    /* margin:5px 0; */
+    line-height: 30px;
+}
+
+#text_bar{
+    margin:0 15px 0 10px;
+}
+
+.img_me{
+    width:150px;
+    height:150px;
+    background-color: darksalmon;
+    border-radius: 0px;
+    /*因為flex的特性，當display設定為flex時，flex item的flex-shrink預設值會是1，意思就是當空間不足時，item就會被擠壓。這也就是讓中間欄位被撐開後，沒有導致其他item被擠倒container外的原因。將flex-shrink設為可解決。*/
+    flex-shrink:0;
+}
+
+.name,.job{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top:10px;
+}
+
+.email,
+.cel{
+    font-size: 18px;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cel{
+    margin-bottom:10px;
+}
+
+.email img,
+.cel img{
+    width:30px;
+}
+
+.email p,
+.cel p{
+    margin-left:5px;
+}
+
+.fit,
+.contact,
+.education,
+.skills,
+.experience{
+    width: 100%;
+}
+
+.fit .item_title,
+.contact .item_title,
+.education .item_title,
+.skills .item_title,
+.experience .item_title{
+    font-size: 20px;
+    margin:10px;
+    font-weight: 600;
+    text-align: center;
+    color:#eee;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.4);
+}
+
+.fit .item_content,
+.education .item_content,
+.skills .item_content,
+.experience .item_content{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin:10px 0;
+}
+
+.fit .item_content{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:auto;
+}
+
+.yes{
+    width:30px;
+    margin-right: 5px;
+}
+
+.warn{
+    width:25px;
+    margin-right: 5px;
+}
+#line_center{
+    display:flex;
+    align-items: center;
+}
