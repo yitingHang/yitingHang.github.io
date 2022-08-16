@@ -250,7 +250,7 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top:100px;
+        margin-top:125px;
     }
     
     .info{
@@ -270,7 +270,9 @@ footer{
         transform: scale(.9);
     }
 
-    .content::-webkit-scrollbar { display: none; }
+    .content::-webkit-scrollbar { display: none;}
+    
+
 }
 
 
@@ -305,5 +307,7 @@ footer{
     footer{
         display: block;
     }
+
+    .content::-webkit-scrollbar { display: block; }
 }
 
