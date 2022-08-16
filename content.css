@@ -57,15 +57,20 @@
     align-items: center;
 }
 
-
 .img_me{
-    width:200px;
-    height:200px;
-    background-color: darksalmon;
-    border-radius: 0px;
+    width:170px;
+    text-align:center;
+    background-color:white;
+    border-radius: 25px;
+    border: 5px solid #fff575;
+}
+
+.img_me img{
+    width:160px;
+    /* height:200px; */
     /*因為flex的特性，當display設定為flex時，flex item的flex-shrink預設值會是1，意思就是當空間不足時，item就會被擠壓。這也就是讓中間欄位被撐開後，沒有導致其他item被擠倒container外的原因。將flex-shrink設為可解決。*/
     flex-shrink:0;
-    border-radius: 50%;
+    border-radius: 15px;
 }
 
 .name,.job{
